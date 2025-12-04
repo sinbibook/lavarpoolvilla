@@ -1,1 +1,1 @@
-# lavarpoolvilla
+# template-center-slider
