@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "version": "1.3.0",
-    "generatedAt": "2025-12-05T05:28:46.694Z",
-    "templateType": "center_slider",
+    "version": "1.4.0",
+    "generatedAt": "2025-12-09T06:58:05.920Z",
+    "templateType": "full_banner_slider_flat",
     "propertyId": "3c48e058-e99b-4aca-ab01-53362b4d8ec3",
     "homepageId": "0bb6b3ff-6875-49ad-bd7b-ca5036169290"
   },
@@ -439,7 +439,10 @@
       "roomViews": [
         "오션뷰"
       ],
-      "roomStructures": [],
+      "roomStructures": [
+        "테라스"
+      ],
+      "status": "active",
       "images": [
         {
           "thumbnail": [
@@ -618,6 +621,7 @@
         "오션뷰"
       ],
       "roomStructures": [],
+      "status": "active",
       "images": [
         {
           "thumbnail": [
@@ -782,6 +786,7 @@
         "오션뷰"
       ],
       "roomStructures": [],
+      "status": "active",
       "images": [
         {
           "thumbnail": [
@@ -953,6 +958,7 @@
         "오션뷰"
       ],
       "roomStructures": [],
+      "status": "active",
       "images": [
         {
           "thumbnail": [
@@ -1103,6 +1109,7 @@
         "오션뷰"
       ],
       "roomStructures": [],
+      "status": "active",
       "images": [
         {
           "thumbnail": [
@@ -1304,6 +1311,7 @@
       "roomStructures": [
         "독채"
       ],
+      "status": "active",
       "images": [
         {
           "thumbnail": [
@@ -1534,6 +1542,7 @@
         "복층",
         "독채"
       ],
+      "status": "active",
       "images": [
         {
           "thumbnail": [
@@ -1738,7 +1747,7 @@
   ],
   "homepage": {
     "domain": "lavarpoolvilla.kr",
-    "templateType": "center_slider",
+    "templateType": "full_banner_slider_flat",
     "images": [
       {
         "logo": []
@@ -1892,21 +1901,7 @@
             }
           ]
         },
-        "room": [
-          {
-            "id": "3f74fb7f-94f4-430e-b49c-59d5b093e3b1",
-            "sections": [
-              {
-                "hero": {
-                  "title": ""
-                },
-                "gallery": {
-                  "title": ""
-                }
-              }
-            ]
-          }
-        ],
+        "room": [],
         "facility": [],
         "reservation": {
           "sections": [
