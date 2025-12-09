@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "version": "1.6.0",
-    "generatedAt": "2025-12-09T07:10:36.199Z",
+    "version": "1.7.0",
+    "generatedAt": "2025-12-09T07:20:10.659Z",
     "templateType": "full_banner_slider_flat",
     "propertyId": "3c48e058-e99b-4aca-ab01-53362b4d8ec3",
     "homepageId": "0bb6b3ff-6875-49ad-bd7b-ca5036169290"
@@ -1750,7 +1750,15 @@
     "templateType": "full_banner_slider_flat",
     "images": [
       {
-        "logo": []
+        "logo": [
+          {
+            "id": "8547fe2f-bec7-43a4-96ad-92fffde21dc5",
+            "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/0bb6b3ff-6875-49ad-bd7b-ca5036169290/logo/1765264604640-zo1ilbmmmot.png",
+            "sortOrder": 0,
+            "description": "",
+            "isSelected": true
+          }
+        ]
       }
     ],
     "seo": {
@@ -1916,7 +1924,7 @@
                   {
                     "id": "77a0550f-be8c-4fbf-9c5c-6f3486e84da0",
                     "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/0bb6b3ff-6875-49ad-bd7b-ca5036169290/index_signature/1765264211875-iqlzyx9d39.jpg",
-                    "sortOrder": 2,
+                    "sortOrder": 0,
                     "description": "",
                     "isSelected": true
                   }
@@ -1970,7 +1978,23 @@
                 ],
                 "description": "전 객실 오션뷰 라바풀빌라입니다."
               },
-              "about": []
+              "about": [
+                {
+                  "title": "",
+                  "images": [
+                    {
+                      "id": "b7771e3b-2a67-442d-9a9e-e1a07d212b86",
+                      "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/0bb6b3ff-6875-49ad-bd7b-ca5036169290/main_about/1765264546571-kjxb47es699.jpg",
+                      "sortOrder": 0,
+                      "description": "",
+                      "isSelected": true,
+                      "blockId": "f601884b-4c11-40a3-8fd2-33205dc6672b"
+                    }
+                  ],
+                  "blockId": "f601884b-4c11-40a3-8fd2-33205dc6672b",
+                  "description": ""
+                }
+              ]
             }
           ]
         },
