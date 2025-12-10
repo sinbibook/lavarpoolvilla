@@ -12,14 +12,6 @@
     font-display: swap;
 }
 
-/* Heading Font */
-@font-face {
-    font-family: 'KccImKwonTaek';
-    src: url('../fonts/KCC-Imkwontaek.ttf') format('truetype');
-    font-weight: normal;
-    font-display: swap;
-}
-
 /* Body Font */
 @font-face {
     font-family: 'Pretendard';
@@ -32,6 +24,14 @@
     font-family: 'MaruBuri';
     src: url('../fonts/MaruBuri-Regular.ttf') format('truetype');
     font-weight: 400;
+    font-display: swap;
+}
+
+/* Noto Serif KR */
+@font-face {
+    font-family: 'Noto Serif KR';
+    src: url('../fonts/NotoSerifKR-VariableFont_wght.ttf') format('truetype');
+    font-weight: 200 900;
     font-display: swap;
 }
 
