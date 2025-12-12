@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "version": "1.11.0",
-    "generatedAt": "2025-12-12T01:42:28.323Z",
+    "version": "1.12.0",
+    "generatedAt": "2025-12-12T02:04:21.812Z",
     "templateType": "full_banner_slider_flat",
     "propertyId": "3c48e058-e99b-4aca-ab01-53362b4d8ec3",
     "homepageId": "0bb6b3ff-6875-49ad-bd7b-ca5036169290"
@@ -1897,53 +1897,74 @@
                 "title": "About LAVAR",
                 "images": [
                   {
+                    "id": "69b1e0bd-dc32-41f0-b0cc-5bca56052639",
+                    "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/0bb6b3ff-6875-49ad-bd7b-ca5036169290/index_gallery/1765503672460-8qqvcspybcr.jpg",
+                    "sortOrder": 0,
+                    "description": "바다 바로 앞",
+                    "isSelected": false
+                  },
+                  {
+                    "id": "7cf87b92-fcae-4829-9593-1ddd7e104485",
+                    "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/0bb6b3ff-6875-49ad-bd7b-ca5036169290/index_gallery/1765503672460-k8by07fadq.jpg",
+                    "sortOrder": 1,
+                    "description": "오션뷰 풀빌라",
+                    "isSelected": true
+                  },
+                  {
+                    "id": "5ae323e7-fe47-4c3e-b7ee-266749714234",
+                    "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/0bb6b3ff-6875-49ad-bd7b-ca5036169290/index_gallery/1765503672460-cg0w0sxroak.jpg",
+                    "sortOrder": 2,
+                    "description": "제트스파",
+                    "isSelected": true
+                  },
+                  {
+                    "id": "9c71d5e5-5380-4a1b-9750-9461b20f77a1",
+                    "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/0bb6b3ff-6875-49ad-bd7b-ca5036169290/index_gallery/1765504032442-bvugtv9kx2i.jpg",
+                    "sortOrder": 3,
+                    "description": "히노끼탕",
+                    "isSelected": true
+                  },
+                  {
+                    "id": "19d0c709-a684-45e7-a78d-152a1d571541",
+                    "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/0bb6b3ff-6875-49ad-bd7b-ca5036169290/index_gallery/1765503672459-22v219b6z0f.jpg",
+                    "sortOrder": 4,
+                    "description": "루프탑\r\n수영장",
+                    "isSelected": true
+                  },
+                  {
                     "id": "0f0fe530-7a73-4515-a5c3-e331ac76c537",
                     "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/0bb6b3ff-6875-49ad-bd7b-ca5036169290/index_gallery/1765503672458-i8maypakyb.jpg",
-                    "sortOrder": 0,
+                    "sortOrder": 5,
                     "description": "바다 앞",
                     "isSelected": false
                   },
                   {
                     "id": "f42b1fb7-a0f1-423c-81c4-f51630d81df9",
                     "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/0bb6b3ff-6875-49ad-bd7b-ca5036169290/index_gallery/1765263897339-mpheo8gktj.jpg",
-                    "sortOrder": 1,
-                    "description": "ㅇ",
+                    "sortOrder": 6,
+                    "description": "펜션 내 카페",
                     "isSelected": true
                   },
                   {
                     "id": "9a6b94cf-2388-403a-a08e-03837328aa43",
                     "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/0bb6b3ff-6875-49ad-bd7b-ca5036169290/index_gallery/1765503672459-zrx8p8hlpf.jpg",
-                    "sortOrder": 2,
+                    "sortOrder": 7,
                     "description": "갯벌체험",
                     "isSelected": true
                   },
                   {
-                    "id": "19d0c709-a684-45e7-a78d-152a1d571541",
-                    "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/0bb6b3ff-6875-49ad-bd7b-ca5036169290/index_gallery/1765503672459-22v219b6z0f.jpg",
-                    "sortOrder": 3,
-                    "description": "루프탑\r\n수영장",
-                    "isSelected": true
-                  },
-                  {
-                    "id": "5ae323e7-fe47-4c3e-b7ee-266749714234",
-                    "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/0bb6b3ff-6875-49ad-bd7b-ca5036169290/index_gallery/1765503672460-cg0w0sxroak.jpg",
-                    "sortOrder": 4,
-                    "description": "제트스파",
-                    "isSelected": true
-                  },
-                  {
-                    "id": "69b1e0bd-dc32-41f0-b0cc-5bca56052639",
-                    "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/0bb6b3ff-6875-49ad-bd7b-ca5036169290/index_gallery/1765503672460-8qqvcspybcr.jpg",
-                    "sortOrder": 5,
+                    "id": "95aa6fac-032a-455a-8b9e-4651c22f20c9",
+                    "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/0bb6b3ff-6875-49ad-bd7b-ca5036169290/index_gallery/1765504032443-withl253c6i.jpg",
+                    "sortOrder": 8,
                     "description": "",
-                    "isSelected": true
+                    "isSelected": false
                   },
                   {
-                    "id": "7cf87b92-fcae-4829-9593-1ddd7e104485",
-                    "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/0bb6b3ff-6875-49ad-bd7b-ca5036169290/index_gallery/1765503672460-k8by07fadq.jpg",
-                    "sortOrder": 6,
+                    "id": "c17d0a59-1ff5-4678-b1d9-51d88872d147",
+                    "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/0bb6b3ff-6875-49ad-bd7b-ca5036169290/index_gallery/1765504032443-1vtsal8196hj.jpg",
+                    "sortOrder": 9,
                     "description": "",
-                    "isSelected": true
+                    "isSelected": false
                   }
                 ],
                 "description": ""
@@ -1952,10 +1973,10 @@
                 "title": "",
                 "images": [
                   {
-                    "id": "77a0550f-be8c-4fbf-9c5c-6f3486e84da0",
-                    "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/0bb6b3ff-6875-49ad-bd7b-ca5036169290/index_signature/1765264211875-iqlzyx9d39.jpg",
+                    "id": "9b0b1c1c-a88b-4b41-b8d8-6c484fdba3d6",
+                    "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/0bb6b3ff-6875-49ad-bd7b-ca5036169290/index_signature/1765504032443-at03qw4okz8.jpg",
                     "sortOrder": 0,
-                    "description": "",
+                    "description": "LAVAR POOL VILLA",
                     "isSelected": true
                   }
                 ]
@@ -1986,8 +2007,8 @@
                 ]
               },
               "notice": {
-                "title": "",
-                "description": ""
+                "title": "[오시는 길]",
+                "description": " ※ 네비게이션에 주소 또는 숙소명을 검색해주세요\n- 도로명 주소 : 충남 보령시 웅천읍 열린바다로 484"
               }
             }
           ]
@@ -1996,7 +2017,7 @@
           "sections": [
             {
               "hero": {
-                "title": "보령 라바풀빌라 ",
+                "title": "숙소 소개",
                 "images": [
                   {
                     "id": "c806333c-575e-4d80-85a9-e14ff3666e34",
@@ -2013,11 +2034,11 @@
                     "isSelected": true
                   }
                 ],
-                "description": "전 객실 오션뷰 라바풀빌라입니다."
+                "description": "전 객실 오션뷰, 라바풀빌라를 소개합니다."
               },
               "about": [
                 {
-                  "title": "",
+                  "title": "바다와 맞닿은 곳, 보령 라바풀빌라",
                   "images": [
                     {
                       "id": "b7771e3b-2a67-442d-9a9e-e1a07d212b86",
@@ -2029,14 +2050,35 @@
                     }
                   ],
                   "blockId": "f601884b-4c11-40a3-8fd2-33205dc6672b",
-                  "description": ""
+                  "description": "넓고 빛나는 수영장이 끝없이 아름다운 바다와 맞닿은 곳에서, 고요한 휴식의 순간이 펼쳐집니다. 프라이빗하게 즐기는 오션뷰 수영장에서 고요한 파도 소리를 들으며, 바다와 자연이 선물하는 특별한 순간을 온전히 경험해보시기 바랍니다."
                 }
               ]
             }
           ]
         },
         "room": [],
-        "facility": [],
+        "facility": [
+          {
+            "id": "92e384bb-0441-437e-84ea-22c49a37bd1b",
+            "sections": [
+              {
+                "hero": {
+                  "title": "",
+                  "images": []
+                },
+                "about": {
+                  "title": "",
+                  "images": []
+                },
+                "experience": {
+                  "features": [],
+                  "additionalInfos": [],
+                  "benefits": []
+                }
+              }
+            ]
+          }
+        ],
         "reservation": {
           "sections": [
             {
