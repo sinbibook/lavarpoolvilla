@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "version": "1.14.0",
-    "generatedAt": "2025-12-12T02:35:59.319Z",
+    "version": "1.15.0",
+    "generatedAt": "2025-12-15T06:35:00.513Z",
     "templateType": "full_banner_slider_flat",
     "propertyId": "3c48e058-e99b-4aca-ab01-53362b4d8ec3",
     "homepageId": "0bb6b3ff-6875-49ad-bd7b-ca5036169290"
@@ -12,8 +12,8 @@
     "description": "오션뷰 루프탑 수영장 라바풀빌라",
     "subtitle": "오션뷰 루프탑 수영장 라바풀빌라",
     "address": "충청남도 보령시 웅천읍 열린바다로 484",
-    "latitude": 0,
-    "longitude": 0,
+    "latitude": 36.2301021709846,
+    "longitude": 126.53160563518,
     "contactPhone": "010-3309-7977",
     "contactEmail": "111@naver.com",
     "checkin": "15:00:00",
