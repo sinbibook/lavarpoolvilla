@@ -22,7 +22,7 @@
     height: 12px;
     border-radius: 50%;
     background: transparent;
-    border: 2px solid rgba(255, 255, 255, 0.5);
+    border: 2px solid color-mix(in srgb, white 50%, transparent);
     cursor: pointer;
     transition: all 0.3s ease;
     padding: 0;
@@ -30,7 +30,7 @@
 }
 
 .section-dot:hover {
-    background: rgba(255, 255, 255, 0.3);
+    background: color-mix(in srgb, white 30%, transparent);
     transform: scale(1.2);
 }
 
@@ -72,7 +72,7 @@
     height: 100vh;
     min-height: 100vh;
     overflow: hidden;
-    background: #f8f8f8;
+    background: var(--color-primary);
 }
 
 /* Initial Brand Name Reveal */
@@ -86,7 +86,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background: #fff;
+    background: white;
     animation: brandBackgroundFade 1.5s ease-in-out forwards;
     animation-delay: 2.5s;
     pointer-events: none;
@@ -282,12 +282,11 @@
 }
 
 .brand-title {
-    /* font-family: 'KccImKwonTaek', 'Chonburi', sans-serif; */
-    font-family: 'Noto Serif KR', serif;
+    font-family: var(--font-ko-main);
     font-size: clamp(2rem, 5vw, 3.5rem);
     font-weight: 600;
     letter-spacing: 4px;
-    color: #fff;
+    color: white;
     margin: 0;
     text-transform: uppercase;
     text-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
@@ -296,14 +295,14 @@
 .brand-divider {
     width: 80px;
     height: 1px;
-    background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.8), transparent);
+    background: linear-gradient(90deg, transparent, color-mix(in srgb, white 80%, transparent), transparent);
     margin: 1rem auto;
 }
 
 .brand-subtitle {
     font-size: clamp(0.8rem, 1.5vw, 1rem);
     letter-spacing: 0.3em;
-    color: rgba(255, 255, 255, 0.8);
+    color: color-mix(in srgb, white 80%, transparent);
     text-transform: uppercase;
     margin: 0;
 }
@@ -317,7 +316,7 @@
 
 .tagline-main {
     font-size: clamp(1.2rem, 3vw, 2rem);
-    color: rgba(255, 255, 255, 0.9);
+    color: color-mix(in srgb, white 90%, transparent);
     margin: 0 0 0.5rem 0;
     font-weight: 400;
     line-height: 1.4;
@@ -325,7 +324,7 @@
 
 .tagline-sub {
     font-size: clamp(0.9rem, 2vw, 1.1rem);
-    color: rgba(255, 255, 255, 0.7);
+    color: color-mix(in srgb, white 70%, transparent);
     margin: 0;
     line-height: 1.6;
 }
@@ -368,11 +367,11 @@
 @keyframes brandBackgroundFade {
     0% {
         opacity: 1;
-        background: #fff;
+        background: white;
     }
     90% {
         opacity: 1;
-        background: #fff;
+        background: white;
     }
     100% {
         opacity: 0;
@@ -435,7 +434,7 @@
 .hero-slider-line {
     width: 100px;
     height: 1px;
-    background: rgba(255, 255, 255, 0.3);
+    background: color-mix(in srgb, white 30%, transparent);
     position: relative;
     overflow: hidden;
 }
@@ -495,7 +494,7 @@
     align-items: center;
     padding: 80px 0;
     box-sizing: border-box;
-    background: #f8f8f8;
+    background: var(--color-primary);
     height: 100vh;
 }
 
@@ -534,14 +533,15 @@
 }
 
 .room-preview-title {
-    font-family: 'Chonburi', cursive;
+    font-family: var(--font-en-main);
     font-size: 3.5rem;
     font-weight: 700;
     margin-bottom: 20px;
-    color: #5D6D7E;
+    color: var(--color-secondary);
 }
 
 .room-preview-description {
+    font-family: var(--font-ko-sub);
     font-size: 1.1rem;
     color: #666;
     line-height: 1.6;
@@ -560,7 +560,7 @@
     justify-content: space-between;
     padding: 10px 20px;
     border: none;
-    /* background: rgba(255, 255, 255, 0.7);
+    /* background: color-mix(in srgb, white 70%, transparent);
     backdrop-filter: blur(10px);
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); */
     background: none;
@@ -579,14 +579,14 @@
 
 .room-tab-number {
     font-size: 0.85rem;
-    color: #999;
+    color: color-mix(in srgb, var(--color-secondary) 50%, transparent);
     margin-right: 20px;
     font-weight: 500;
     min-width: 25px;
 }
 
 .room-tab-name {
-    font-family: 'MaruBuri', sans-serif;
+    font-family: var(--font-ko-main);
     font-size: 1.1rem;
     font-weight: 600;
     color: #666;
@@ -600,10 +600,10 @@
     gap: 6px;
     padding: 8px 16px;
     background: transparent;
-    color: #fff;
-    border: 1px solid rgba(255, 255, 255, 0.5);
+    color: white;
+    border: 1px solid color-mix(in srgb, white 50%, transparent);
     border-radius: 0;
-    font-family: 'Chonburi', sans-serif;
+    font-family: var(--font-en-main);
     font-size: 0.75rem;
     font-weight: 400;
     text-transform: uppercase;
@@ -619,7 +619,7 @@
 }
 
 .room-tab-detail-btn:hover {
-    background: rgba(255, 255, 255, 0.2);
+    background: color-mix(in srgb, white 20%, transparent);
     border-color: #fff;
 }
 
@@ -641,13 +641,13 @@
 }
 
 .room-tab:hover {
-    background: rgba(255, 255, 255, 0.9);
+    background: color-mix(in srgb, white 90%, transparent);
     transform: translateX(5px);
 }
 
 .room-tab.active {
-    background: #5D6D7E;
-    border-color: #f0f0f0;
+    background: var(--color-secondary);
+    border-color: color-mix(in srgb, var(--color-secondary) 5%, transparent);
     border-radius: 0;
     border-top-right-radius: 50px;
     border-bottom-right-radius: 50px;
@@ -655,7 +655,7 @@
 
 .room-tab.active .room-tab-number,
 .room-tab.active .room-tab-name {
-    color: #fff;
+    color: white;
 }
 
 /* Room Descriptions Area */
@@ -663,7 +663,7 @@
     position: relative;
     min-height: 200px;
     margin-top: 0;
-    background: rgba(255, 255, 255, 0.7);
+    background: color-mix(in srgb, white 70%, transparent);
     backdrop-filter: blur(10px);
     padding: 80px 45px;
     border-radius: 0;
@@ -702,7 +702,7 @@
 }
 
 .room-desc-text {
-    font-family: 'MaruBuri', sans-serif;
+    font-family: var(--font-ko-sub);
     font-size: 0.95rem;
     color: #666;
     line-height: 1.6;
@@ -725,9 +725,9 @@
     margin: 20px 0;
     padding: 12px 24px;
     background: transparent;
-    color: #5D6D7E;
+    color: var(--color-secondary);
     border: 1px solid rgba(93, 109, 126, 0.3);
-    font-family: 'Chonburi', sans-serif;
+    font-family: var(--font-en-main);
     font-size: 0.9rem;
     font-weight: 400;
     text-transform: uppercase;
@@ -739,9 +739,9 @@
 }
 
 .view-all-rooms-btn:hover {
-    background: #5D6D7E;
+    background: var(--color-secondary);
     color: white;
-    border-color: #5D6D7E;
+    border-color: var(--color-secondary);
 }
 
 .view-all-rooms-btn .btn-text {
@@ -776,7 +776,7 @@
 
 .room-info-label {
     font-size: 0.85rem;
-    color: #999;
+    color: color-mix(in srgb, var(--color-secondary) 50%, transparent);
     font-weight: 500;
 }
 
@@ -787,7 +787,7 @@
 
 .room-info-value {
     font-size: 0.9rem;
-    color: #333;
+    color: var(--color-secondary);
     font-weight: 500;
 }
 
@@ -882,12 +882,12 @@
 .room-slider-next {
     width: 40px;
     height: 40px;
-    background: rgba(255, 255, 255, 0.9);
+    background: color-mix(in srgb, white 90%, transparent);
     border: none;
     border-radius: 50%;
     font-size: 18px;
     font-weight: bold;
-    color: #333;
+    color: var(--color-secondary);
     cursor: pointer;
     display: flex;
     align-items: center;
@@ -1059,7 +1059,7 @@
     align-items: center;
     overflow: visible;
     padding: 0;
-    background: #f8f8f8;
+    background: var(--color-primary);
 }
 
 .essence-wrapper {
@@ -1111,11 +1111,11 @@
 }
 
 .essence-title {
-    font-family: 'Chonburi', cursive;
+    font-family: var(--font-en-main);
     font-size: clamp(2.5rem, 4vw, 3.5rem);
     font-weight: 700;
     line-height: 1.1;
-    color: #5D6D7E;
+    color: var(--color-secondary);
     margin-bottom: 60px;
     letter-spacing: -0.02em;
     white-space: pre-line;
@@ -1129,10 +1129,11 @@
     font-size: 1.8rem;
     font-weight: 700;
     margin-bottom: 25px;
-    color: #111;
+    color: var(--color-secondary);
 }
 
 .essence-description {
+    font-family: var(--font-ko-sub);
     font-size: 0.95rem;
     line-height: 1.8;
     color: #666;
@@ -1246,7 +1247,7 @@
     min-height: 100vh;
     display: flex;
     align-items: center;
-    background: #f8f8f8;
+    background: var(--color-primary);
     padding: 0;
 }
 
@@ -1271,16 +1272,16 @@
 }
 
 .experience-title {
-    font-family: 'Chonburi', cursive;
+    font-family: var(--font-en-main);
     font-size: 3.5rem;
     font-weight: 700;
-    color: #5D6D7E;
+    color: var(--color-secondary);
     margin-bottom: 20px;
     letter-spacing: -1px;
 }
 
 .experience-description {
-    font-family: 'Chonburi', cursive;
+    font-family: var(--font-en-main);
     font-size: 1.3rem;
     font-weight: 400;
     color: #666;
@@ -1401,7 +1402,7 @@
 }
 
 .experience-accordion-overlay h4 {
-    font-family: 'MaruBuri', sans-serif;
+    font-family: var(--font-ko-sub);
     font-size: 1.8rem;
     font-weight: 700;
     margin-bottom: 10px;
@@ -1425,7 +1426,7 @@
     min-height: 100vh;
     display: flex;
     align-items: center;
-    background: #f8f8f8;
+    background: var(--color-primary);
     padding: 0;
 }
 
@@ -1497,7 +1498,7 @@
 }
 
 .signature-slide-title {
-    font-family: 'MaruBuri', sans-serif;
+    font-family: var(--font-ko-main);
     font-size: 1.5rem;
     font-weight: 700;
     margin-bottom: 20px;
@@ -1507,7 +1508,7 @@
 }
 
 .signature-slide-description {
-    font-family: 'MaruBuri', sans-serif;
+    font-family: var(--font-ko-sub);
     font-size: 0.9rem;
     color: #666;
     line-height: 1.8;
@@ -1516,7 +1517,7 @@
 
 .signature-slide-subtitle {
     font-size: 0.9rem;
-    color: #999;
+    color: color-mix(in srgb, var(--color-secondary) 50%, transparent);
     letter-spacing: 1px;
     text-transform: uppercase;
 }
@@ -1629,7 +1630,7 @@
 
 .index-closing-text {
     text-align: center;
-    color: #fff;
+    color: white;
     padding: 2rem;
     display: flex;
     flex-direction: column;
@@ -1666,14 +1667,15 @@
 .index-closing-divider {
     width: 80px;
     height: 1px;
-    background: rgba(255, 255, 255, 0.5);
+    background: color-mix(in srgb, white 50%, transparent);
     margin: 20px auto;
 }
 
 .index-closing-description {
+    font-family: var(--font-ko-sub);
     font-size: 1.1rem;
     line-height: 1.8;
-    color: rgba(255, 255, 255, 0.9);
+    color: color-mix(in srgb, white 90%, transparent);
     max-width: 600px;
     margin: 0 auto 40px;
     margin-top: 20px;
