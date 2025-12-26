@@ -62,7 +62,7 @@
 
 
 .facility-description {
-    font-family: 'MaruBuri', sans-serif;
+    font-family: var(--font-ko-sub);
     font-size: 1.1rem;
     line-height: 1.8;
     color: #666;
@@ -98,7 +98,7 @@
     font-weight: 700;
     text-align: center;
     margin: 0 0 60px 0;
-    color: #333;
+    color: var(--color-secondary);
 }
 
 .info-grid {
@@ -113,20 +113,20 @@
     padding: 40px 30px;
     border-radius: 12px;
     text-align: center;
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+    box-shadow: 0 4px 20px color-mix(in srgb, var(--color-secondary) 8%, transparent);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .info-card:hover {
     transform: translateY(-5px);
-    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.12);
+    box-shadow: 0 8px 30px color-mix(in srgb, var(--color-secondary) 12%, transparent);
 }
 
 .info-icon {
     width: 50px;
     height: 50px;
     margin: 0 auto 20px;
-    color: #333;
+    color: var(--color-secondary);
 }
 
 .info-icon svg {
@@ -138,7 +138,7 @@
     font-size: 1.3rem;
     font-weight: 600;
     margin: 0 0 15px 0;
-    color: #333;
+    color: var(--color-secondary);
 }
 
 .info-card p {
@@ -153,15 +153,15 @@
     background: white;
     padding: 40px;
     border-radius: 12px;
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+    box-shadow: 0 4px 20px color-mix(in srgb, var(--color-secondary) 8%, transparent);
 }
 
 .notice-box h4 {
     font-size: 1.4rem;
     font-weight: 600;
     margin: 0 0 20px 0;
-    color: #333;
-    border-bottom: 2px solid #f0f0f0;
+    color: var(--color-secondary);
+    border-bottom: 2px solid color-mix(in srgb, var(--color-secondary) 10%, var(--color-primary));
     padding-bottom: 10px;
 }
 
@@ -183,9 +183,9 @@
 }
 
 .notice-section p {
-    font-family: 'MaruBuri', sans-serif;
+    font-family: var(--font-ko-main);
     font-size: 1rem;
-    color: #333;
+    color: var(--color-secondary);
     margin: 0;
 }
 
@@ -205,20 +205,20 @@
     align-items: center;
     justify-content: center;
     gap: 10px;
-    font-family: 'MaruBuri', sans-serif;
+    font-family: var(--font-ko-sub);
     font-size: 1rem;
-    color: #333;
+    color: var(--color-secondary);
     margin: 0;
     padding: 20px 0;
 }
 
 .address-section .notice-wrap {
     width: 100%;
-    border: 1px dashed #ccc;
+    border: 1px dashed color-mix(in srgb, var(--color-secondary) 30%, transparent);
     padding: 30px 40px;
     margin: 20px 0 0;
     border-radius: 8px;
-    background: #edeeef;
+    background: color-mix(in srgb, var(--color-secondary) 8%, var(--color-primary));
 }
 
 .address-section .notice-wrap p {
@@ -230,7 +230,7 @@
 .location-icon {
     width: 20px;
     height: 20px;
-    stroke: #666;
+    stroke: color-mix(in srgb, var(--color-secondary) 60%, transparent);
     stroke-width: 2;
     fill: none;
 }
@@ -240,7 +240,7 @@
     height: 500px;
     border-radius: 12px;
     overflow: hidden;
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 20px color-mix(in srgb, var(--color-secondary) 10%, transparent);
     margin-bottom: 30px;
 }
 

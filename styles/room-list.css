@@ -74,7 +74,7 @@
 /* Room List Section */
 .room-list-section {
     padding: 100px 0;
-    background: #f8f8f8;
+    background: var(--color-primary);
     position: relative;
     z-index: 100;
     min-height: 100vh;
@@ -124,7 +124,7 @@
 }
 
 .title-label {
-    font-family: 'Chonburi', sans-serif;
+    font-family: var(--font-en-main);
     font-size: 0.9rem;
     font-weight: 400;
     color: #666;
@@ -135,7 +135,7 @@
 }
 
 .stylized-title {
-    font-family: 'Chonburi', sans-serif;
+    font-family: var(--font-en-main);
     font-size: clamp(4rem, 8vw, 8rem);
     font-weight: 400;
     color: rgba(93, 109, 126, 0.3);
@@ -285,10 +285,10 @@
 }
 
 .room-title {
-    font-family: 'MaruBuri', sans-serif;
+    font-family: var(--font-ko-main);
     font-size: 1.4rem;
     font-weight: 600;
-    color: #333;
+    color: var(--color-secondary);
     margin: 0;
 }
 
@@ -300,9 +300,9 @@
     gap: 6px;
     padding: 12px 24px;
     background: transparent;
-    color: #333;
+    color: var(--color-secondary);
     border: 1px solid rgba(93, 109, 126, 0.3);
-    font-family: 'Chonburi', sans-serif;
+    font-family: var(--font-en-main);
     font-size: 0.9rem;
     font-weight: 400;
     text-transform: uppercase;
@@ -313,7 +313,7 @@
 }
 
 .room-btn:hover {
-    background: #333;
+    background: var(--color-secondary);
     color: white;
     border-color: #333;
 }
@@ -337,7 +337,7 @@
 .room-info {
     margin: 0;
     padding: 20px;
-    background: #f0f0f0;
+    background: color-mix(in srgb, var(--color-secondary) 5%, transparent);
     border-radius: 20px;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
@@ -350,16 +350,16 @@
 }
 
 .room-info-label {
-    font-family: 'MaruBuri', sans-serif;
+    font-family: var(--font-ko-main);
     font-size: 1rem;
     color: #999;
 }
 
 .room-info-value {
-    font-family: 'MaruBuri', sans-serif;
+    font-family: var(--font-ko-main);
     font-size: 1rem;
     font-weight: 600;
-    color: #333;
+    color: var(--color-secondary);
 }
 
 /* Responsive Design */
@@ -428,9 +428,9 @@
     }
 
     .room-title {
-        font-family: 'MaruBuri', sans-serif;
+        font-family: var(--font-ko-main);
         font-weight: 600;
-        color: #333;
+        color: var(--color-secondary);
         margin: 0 15px;
         font-size: 1rem;
         text-align: center;
