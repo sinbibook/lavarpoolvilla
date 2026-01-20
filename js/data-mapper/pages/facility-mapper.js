@@ -717,8 +717,10 @@ class FacilityMapper extends BaseDataMapper {
 
         // 메타 태그 업데이트 (페이지별 SEO 적용)
         const property = this.data.property;
+        // customFields 헬퍼 함수 사용
+        const propertyName = this.getPropertyName();
         const pageSEO = {
-            title: (facility?.name && property?.name) ? `${facility.name} - ${property.name}` : 'SEO 타이틀',
+            title: (facility?.name && propertyName) ? `${facility.name} - ${propertyName}` : 'SEO 타이틀',
             description: facility?.description || property?.description || 'SEO 설명'
         };
         this.updateMetaTags(pageSEO);

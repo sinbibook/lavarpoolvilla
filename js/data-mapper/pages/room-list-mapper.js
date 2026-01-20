@@ -53,17 +53,13 @@ class RoomListMapper extends BaseDataMapper {
         const heroImageElement = this.safeSelect('[data-customfield-room-list-hero-image-0]');
         if (!heroImageElement) return;
 
-        // 첫 번째 객실의 exterior 이미지 사용 (isSelected 필터링 + sortOrder 정렬)
+        // 첫 번째 객실의 exterior 이미지 사용 (customFields 헬퍼 함수 사용)
         if (this.data.rooms && this.data.rooms.length > 0) {
             const firstRoom = this.data.rooms[0];
-            const exteriorImages = firstRoom.images?.[0]?.exterior || [];
 
-            // isSelected: true인 이미지만 필터링 + sortOrder 정렬
-            const selectedImages = exteriorImages
-                .filter(img => img.isSelected)
-                .sort((a, b) => (a.sortOrder || 0) - (b.sortOrder || 0));
-
-            const firstExterior = selectedImages[0];
+            // customFields 헬퍼 함수로 외부 이미지 가져오기 (category: roomtype_exterior)
+            const exteriorImages = this.getRoomImages(firstRoom, 'roomtype_exterior');
+            const firstExterior = exteriorImages[0];
 
             if (firstExterior?.url) {
                 heroImageElement.src = firstExterior.url;
@@ -124,14 +120,13 @@ class RoomListMapper extends BaseDataMapper {
         const roomCard = document.createElement('div');
         roomCard.className = 'room-card';
 
-        // 객실 이미지 가져오기 (images[0].thumbnail 배열에서)
-        const thumbnails = room.images?.[0]?.thumbnail || [];
-        const sortedImages = thumbnails
-            .filter(img => img.isSelected)
-            .sort((a, b) => (a.sortOrder || 0) - (b.sortOrder || 0));
+        // customFields 헬퍼 함수 사용
+        const roomName = this.getRoomName(room);
 
-        const imageUrl = sortedImages[0]?.url || ImageHelpers.EMPTY_IMAGE_SVG;
-        const imageClass = sortedImages[0]?.url ? '' : ' empty-image-placeholder';
+        // 객실 이미지 가져오기 (customFields 헬퍼 함수 사용)
+        const thumbnailImages = this.getRoomImages(room, 'roomtype_thumbnail');
+        const imageUrl = thumbnailImages[0]?.url || ImageHelpers.EMPTY_IMAGE_SVG;
+        const imageClass = thumbnailImages[0]?.url ? '' : ' empty-image-placeholder';
 
         // 객실 타입 (bedTypes 또는 roomStructures 사용)
         const roomType = room.bedTypes?.join(', ') || '-';
@@ -141,7 +136,7 @@ class RoomListMapper extends BaseDataMapper {
 
         roomCard.innerHTML = `
             <div class="room-card-image" onclick="selectRoom('${room.id}')" style="cursor: pointer;">
-                <img src="${imageUrl}" alt="${room.name}" loading="lazy" class="${imageClass}">
+                <img src="${imageUrl}" alt="${roomName}" loading="lazy" class="${imageClass}">
                 <div class="room-overlay">
                     <div class="overlay-content">
                         <div class="overlay-info">
@@ -167,7 +162,7 @@ class RoomListMapper extends BaseDataMapper {
             </div>
             <div class="room-card-content">
                 <div class="room-header">
-                    <h3 class="room-title">${room.name}</h3>
+                    <h3 class="room-title">${roomName}</h3>
                     <button class="room-btn" onclick="selectRoom('${room.id}')">
                         <span class="btn-text">VIEW</span>
                         <svg class="arrow-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
