@@ -653,6 +653,23 @@
     border-bottom-right-radius: 50px;
 }
 
+/* Disable hover effect on touch devices */
+@media (hover: none) and (pointer: coarse) {
+    .room-tab:hover {
+        background: none;
+        transform: none;
+    }
+
+    /* Only active state shows styling on mobile */
+    .room-tab.active {
+        background: var(--color-secondary);
+        border-color: #f0f0f0;
+        border-radius: 0;
+        border-top-right-radius: 50px;
+        border-bottom-right-radius: 50px;
+    }
+}
+
 .room-tab.active .room-tab-number,
 .room-tab.active .room-tab-name {
     color: white;
