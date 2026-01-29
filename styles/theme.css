@@ -1,13 +1,22 @@
 /* CDN Fonts */
+@import url('https://fonts.cdnfonts.com/css/rughato-wacner');
 @import url('https://hangeul.pstatic.net/hangeul_static/css/maru-buri.css');
 @import url('https://fonts.googleapis.com/css2?family=Chonburi&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@200..900&display=swap');
 
+/* Font Faces */
+@font-face {
+  font-family: 'Cafe24Gowoonbam';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_twelve@1.1/Cafe24Oneprettynight.woff') format('woff');
+  font-weight: 400;
+  font-display: swap;
+}
+
 /* CSS Variables */
 :root {
-  --font-ko-main: 'MaruBuri', sans-serif;
+  --font-ko-main: 'Cafe24Gowoonbam', sans-serif;
   --font-ko-sub: 'Noto Serif KR', serif;
-  --font-en-main: 'Chonburi', serif;
-  --color-primary: #f8f8f8;
-  --color-secondary: #1a1a1a;
+  --font-en-main: 'UGHATO WACNER', sans-serif;
+  --color-primary: #F5F5F5;
+  --color-secondary: #1D3A5F;
 }
