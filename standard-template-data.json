@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "version": "1.29.0",
-    "generatedAt": "2026-01-29T06:24:08.833Z",
+    "version": "1.30.0",
+    "generatedAt": "2026-01-29T09:04:14.275Z",
     "templateType": "full_banner_slider_flat",
     "propertyId": "3c48e058-e99b-4aca-ab01-53362b4d8ec3",
     "homepageId": "0bb6b3ff-6875-49ad-bd7b-ca5036169290"
@@ -47,11 +47,11 @@
       "businessNumber": "306-44-02517",
       "representativeName": "장윤희",
       "businessAddress": "충청남도 보령시 웅천읍 독선리 723",
-      "businessPhone": "",
-      "businessEmail": "",
-      "businessType": "",
-      "businessCategory": "",
-      "eCommerceRegistrationNumber": ""
+      "businessPhone": "010-4201-8552",
+      "businessEmail": "zza93@naver.com",
+      "businessType": "individual",
+      "businessCategory": "숙박",
+      "eCommerceRegistrationNumber": "제 2017-충남보령-0103호"
     },
     "contractInfo": {
       "contractStartDate": "2025-09-10T00:00:00.000Z",
