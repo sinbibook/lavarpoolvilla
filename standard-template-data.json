@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "version": "1.30.0",
-    "generatedAt": "2026-01-29T09:04:14.275Z",
+    "version": "1.31.0",
+    "generatedAt": "2026-02-27T02:02:49.296Z",
     "templateType": "full_banner_slider_flat",
     "propertyId": "3c48e058-e99b-4aca-ab01-53362b4d8ec3",
     "homepageId": "0bb6b3ff-6875-49ad-bd7b-ca5036169290"
@@ -449,6 +449,7 @@
       "name": "시오-201 (풀빌라/오션뷰)",
       "description": "원룸형 : 거실(침대1)+주방+화장실1+개별풀+테라스(개별바베큐)",
       "roomInfo": "[인원추가(1박기준/현장결제)]\n- 36개월 이상 1인 30,000원\n- 36개월 미만은 무료이나 인원에는 포함",
+      "usageGuide": "",
       "group": null,
       "size": 1,
       "baseOccupancy": 2,
@@ -630,6 +631,7 @@
       "name": "케룸-202 (풀빌라/오션뷰)",
       "description": "원룸형 : 거실(침대1)+주방+화장실1+개별풀+테라스(개별바베큐)",
       "roomInfo": "[인원추가(1박기준/현장결제)]\n- 36개월 이상 1인 30,000원\n- 36개월 미만은 무료이나 인원에는 포함",
+      "usageGuide": "",
       "group": null,
       "size": 1,
       "baseOccupancy": 2,
@@ -795,6 +797,7 @@
       "name": "루시오-203 (히노끼욕조/오션뷰)",
       "description": "원룸형 : 거실(침대1)+주방+화장실1+테라스(개별바베큐)",
       "roomInfo": "[인원추가(1박기준/현장결제)]\n- 36개월 이상 1인 30,000원\n- 36개월 미만은 무료이나 인원에는 포함",
+      "usageGuide": "",
       "group": null,
       "size": 1,
       "baseOccupancy": 2,
@@ -967,6 +970,7 @@
       "name": "루스-204 (풀빌라/오션뷰)",
       "description": "원룸형 : 거실(침대1)+주방+화장실1+개별풀+테라스(개별바베큐)",
       "roomInfo": "[인원추가(1박기준/현장결제)]\n- 36개월 이상 1인 30,000원\n- 36개월 미만은 무료이나 인원에는 포함",
+      "usageGuide": "",
       "group": null,
       "size": 1,
       "baseOccupancy": 2,
@@ -1118,6 +1122,7 @@
       "name": "인술라-101 (풀빌라/제트스파/오션뷰)",
       "description": "원룸형 : 거실(침대1)+주방+화장실1+개별풀+테라스(개별바베큐+제트스파)",
       "roomInfo": "[인원추가(1박기준/현장결제)]\n- 36개월 이상 1인 30,000원\n- 36개월 미만은 무료이나 인원에는 포함",
+      "usageGuide": "",
       "group": null,
       "size": 1,
       "baseOccupancy": 2,
@@ -1318,6 +1323,7 @@
       "name": "마레-독채(풀빌라/히노끼욕조/오션뷰)",
       "description": "분리형 : 거실(킹침대1)+주방+침대룸(킹침대1)+화장실2+개별풀+테라스",
       "roomInfo": "[인원추가(1박기준/현장결제)]\n- 36개월 이상 1인 30,000원\n- 36개월 미만은 무료이나 인원에는 포함",
+      "usageGuide": "",
       "group": null,
       "size": 1,
       "baseOccupancy": 4,
@@ -1548,6 +1554,7 @@
       "name": "소노-독채(풀빌라/제트스파/오션뷰)",
       "description": "복층형 : \n- 1층 : 거실(더블침대2)+침대룸(더블침대1)+주방+화장실1+개별풀+테라스\n- 2층 : 거실+화장실1",
       "roomInfo": "[인원추가(1박기준/현장결제)]\n- 36개월 이상 1인 30,000원\n- 36개월 미만은 무료이나 인원에는 포함",
+      "usageGuide": "",
       "group": null,
       "size": 1,
       "baseOccupancy": 4,
@@ -1789,30 +1796,9 @@
       {
         "logo": [
           {
-            "id": "9d844821-dc11-4a10-8f58-bdbaf41741d3",
-            "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/0bb6b3ff-6875-49ad-bd7b-ca5036169290/logo/1765264988856-i3dct1bi2pe.png",
+            "id": "87533999-105a-4e0a-ab02-5d4677f1d134",
+            "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/0bb6b3ff-6875-49ad-bd7b-ca5036169290/logo/1772156962743-mgmd47hqi8d.png",
             "sortOrder": 0,
-            "description": "",
-            "isSelected": false
-          },
-          {
-            "id": "8547fe2f-bec7-43a4-96ad-92fffde21dc5",
-            "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/0bb6b3ff-6875-49ad-bd7b-ca5036169290/logo/1765264604640-zo1ilbmmmot.png",
-            "sortOrder": 1,
-            "description": "",
-            "isSelected": false
-          },
-          {
-            "id": "04bb9b38-850f-42a1-abf4-3005b8a4234e",
-            "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/0bb6b3ff-6875-49ad-bd7b-ca5036169290/logo/1765264988856-1jow6xvqaca.png",
-            "sortOrder": 2,
-            "description": "",
-            "isSelected": false
-          },
-          {
-            "id": "bd50d50f-3248-45ad-bc23-d1564c37fc3f",
-            "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/0bb6b3ff-6875-49ad-bd7b-ca5036169290/logo/1768897212338-9chf8cbwolg.png",
-            "sortOrder": 3,
             "description": "",
             "isSelected": true
           }
@@ -3204,16 +3190,16 @@
         "font": {
           "koSub": null,
           "enMain": {
-            "cdn": "https://fonts.cdnfonts.com/css/rughato-wacner",
-            "key": "rughatowacner",
+            "cdn": "https://fonts.cdnfonts.com/css/gloock-2",
+            "key": "gloock",
             "woff2": null,
-            "family": "UGHATO WACNER"
+            "family": "Gloock"
           },
           "koMain": {
             "cdn": null,
-            "key": "cafe24gowoonbam",
-            "woff2": "https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_twelve@1.1/Cafe24Oneprettynight.woff",
-            "family": "Cafe24Gowoonbam"
+            "key": "escoredream",
+            "woff2": "https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-5Medium.woff",
+            "family": "Escoredream"
           }
         },
         "color": {
