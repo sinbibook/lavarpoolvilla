@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "version": "1.38.0",
-    "generatedAt": "2026-03-16T06:08:24.732Z",
+    "version": "1.39.0",
+    "generatedAt": "2026-03-16T06:11:25.775Z",
     "templateType": "full_banner_slider_flat",
     "propertyId": "3c48e058-e99b-4aca-ab01-53362b4d8ec3",
     "homepageId": "0bb6b3ff-6875-49ad-bd7b-ca5036169290"
@@ -2220,6 +2220,27 @@
           ]
         }
       },
+      "theme": {
+        "font": {
+          "koSub": null,
+          "enMain": {
+            "cdn": "https://fonts.cdnfonts.com/css/gloock-2",
+            "key": "gloock",
+            "woff2": null,
+            "family": "Gloock"
+          },
+          "koMain": {
+            "cdn": null,
+            "key": "escoredream",
+            "woff2": "https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-5Medium.woff",
+            "family": "Escoredream"
+          }
+        },
+        "color": {
+          "primary": "#F5F5F5",
+          "secondary": "#1D3A5F"
+        }
+      },
       "popup": {
         "popups": []
       },
@@ -3594,29 +3615,7 @@
             }
           ]
         }
-      ],
-      "theme": {
-        "font": {
-          "koSub": null,
-          "enMain": {
-            "cdn": "https://fonts.cdnfonts.com/css/gloock-2",
-            "key": "gloock",
-            "woff2": null,
-            "family": "Gloock"
-          },
-          "koMain": {
-            "cdn": null,
-            "key": "escoredream",
-            "woff2": "https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-5Medium.woff",
-            "family": "Escoredream"
-          }
-        },
-        "color": {
-          "primary": "#F5F5F5",
-          "secondary": "#1D3A5F"
-        }
-      }
-    },
-    "id": "0bb6b3ff-6875-49ad-bd7b-ca5036169290"
+      ]
+    }
   }
 }
