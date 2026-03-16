@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "version": "1.37.0",
-    "generatedAt": "2026-03-13T06:19:11.070Z",
+    "version": "1.38.0",
+    "generatedAt": "2026-03-16T06:08:24.732Z",
     "templateType": "full_banner_slider_flat",
     "propertyId": "3c48e058-e99b-4aca-ab01-53362b4d8ec3",
     "homepageId": "0bb6b3ff-6875-49ad-bd7b-ca5036169290"
@@ -432,8 +432,80 @@
     },
     "images": [
       {
-        "thumbnail": [],
-        "exterior": [],
+        "thumbnail": [
+          {
+            "id": "083089b8-8cd2-4a6f-838c-2eede848a394",
+            "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/property/3c48e058-e99b-4aca-ab01-53362b4d8ec3/thumbnail/1773622663103-frdfz96zdxe.jpg",
+            "sortOrder": 0,
+            "description": "",
+            "isSelected": true
+          }
+        ],
+        "exterior": [
+          {
+            "id": "c550595a-50ae-416d-a93c-d0334a9a40b8",
+            "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/property/3c48e058-e99b-4aca-ab01-53362b4d8ec3/exterior/1773622663104-sldhtqsvzt.jpg",
+            "sortOrder": 6,
+            "description": "",
+            "isSelected": true
+          },
+          {
+            "id": "766e0c51-3b8e-4669-bf82-34ec38eebf9e",
+            "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/property/3c48e058-e99b-4aca-ab01-53362b4d8ec3/exterior/1773622663104-1imcrtdsfvi.jpg",
+            "sortOrder": 8,
+            "description": "",
+            "isSelected": true
+          },
+          {
+            "id": "b57529da-c0bc-4410-ad22-1eecc4ee2a1d",
+            "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/property/3c48e058-e99b-4aca-ab01-53362b4d8ec3/exterior/1773622663103-rqy4lin50sg.jpg",
+            "sortOrder": 1,
+            "description": "",
+            "isSelected": true
+          },
+          {
+            "id": "9e938a05-68e4-4fd1-ab13-1da83825bddb",
+            "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/property/3c48e058-e99b-4aca-ab01-53362b4d8ec3/exterior/1773622663103-mvdaspui8he.jpg",
+            "sortOrder": 4,
+            "description": "",
+            "isSelected": true
+          },
+          {
+            "id": "413034d5-dbb0-43d0-970b-2a147c3fb211",
+            "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/property/3c48e058-e99b-4aca-ab01-53362b4d8ec3/exterior/1773622663103-ts151mhql2.jpg",
+            "sortOrder": 3,
+            "description": "",
+            "isSelected": true
+          },
+          {
+            "id": "b2921566-4a35-4183-a6d8-a7d6ebe8f7a4",
+            "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/property/3c48e058-e99b-4aca-ab01-53362b4d8ec3/exterior/1773622663104-gw3j1eqyw8.jpg",
+            "sortOrder": 5,
+            "description": "",
+            "isSelected": true
+          },
+          {
+            "id": "30720396-00b2-4867-8864-81c0be1407ac",
+            "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/property/3c48e058-e99b-4aca-ab01-53362b4d8ec3/exterior/1773622663103-qha95e2ezt.jpg",
+            "sortOrder": 1,
+            "description": "",
+            "isSelected": true
+          },
+          {
+            "id": "782e6693-b4ee-48e1-9663-3c6d0cd1cc28",
+            "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/property/3c48e058-e99b-4aca-ab01-53362b4d8ec3/exterior/1773622663103-7uouoeqql1g.jpg",
+            "sortOrder": 2,
+            "description": "",
+            "isSelected": true
+          },
+          {
+            "id": "b7d48e45-3226-4b49-950a-bb402ab194d5",
+            "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/property/3c48e058-e99b-4aca-ab01-53362b4d8ec3/exterior/1773622663104-es3s5w2rtps.jpg",
+            "sortOrder": 7,
+            "description": "",
+            "isSelected": true
+          }
+        ],
         "surrounding": [],
         "commonArea": []
       }
