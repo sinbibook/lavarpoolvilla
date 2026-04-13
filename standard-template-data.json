@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "version": "1.49.0",
-    "generatedAt": "2026-04-13T08:23:13.126Z",
+    "version": "1.50.0",
+    "generatedAt": "2026-04-13T09:00:25.901Z",
     "templateType": "fullpage_visual",
     "propertyId": "3c48e058-e99b-4aca-ab01-53362b4d8ec3",
     "homepageId": "0bb6b3ff-6875-49ad-bd7b-ca5036169290"
@@ -518,18 +518,35 @@
   "rooms": [
     {
       "id": "159fc4a5-be7f-41ce-b926-91e5b3d06185",
+      "propertyId": "3c48e058-e99b-4aca-ab01-53362b4d8ec3",
+      "propertyName": "보령 라바풀빌라",
       "name": "시오-201 (풀빌라/오션뷰)",
+      "nameEn": "SEIO-201 (Pool Villa / Ocean View)",
       "description": "원룸형 : 거실(침대1)+주방+화장실1+개별풀+테라스(개별바베큐)",
       "roomInfo": "[인원추가(1박기준/현장결제)]\n- 36개월 이상 1인 30,000원\n- 36개월 미만은 무료이나 인원에는 포함",
       "usageGuide": "[인원추가(1박기준/현장결제)]\n- 36개월 이상 1인 30,000원\n- 36개월 미만은 무료이나 인원에는 포함",
       "group": null,
       "size": 1,
+      "sizePyeong": 0.3,
       "baseOccupancy": 2,
       "maxOccupancy": 5,
       "totalRoomCount": {
         "bedroom": 1,
         "bathroom": 1,
-        "livingRoom": 0
+        "livingRoom": 1,
+        "ondol": 0,
+        "kitchen": 0
+      },
+      "roomOptions": {
+        "petState": "N",
+        "barbecueState": "N",
+        "poolState": "N"
+      },
+      "timeSettings": {
+        "timeSettingType": "property",
+        "checkin": "15:00",
+        "checkout": "11:00",
+        "checkinDeadline": "22:00"
       },
       "bedTypes": [
         "퀸 베드"
@@ -553,6 +570,7 @@
         "테라스"
       ],
       "status": "active",
+      "bankAccountId": "203f07be-7e0a-4fd7-a2f2-2d1c835750e0",
       "images": [
         {
           "thumbnail": [
@@ -696,22 +714,43 @@
           ]
         }
       ],
-      "displayOrder": 1
+      "displayOrder": 1,
+      "createdAt": "2025-12-03T03:29:35.126Z",
+      "updatedAt": "2026-04-13T08:21:17.034Z",
+      "createdBy": "3a2aa390-fb70-475b-895f-b6e3ea8ef4a2",
+      "updatedBy": "b44df484-2787-43ca-add4-16bba0d8bc83"
     },
     {
       "id": "3f74fb7f-94f4-430e-b49c-59d5b093e3b1",
+      "propertyId": "3c48e058-e99b-4aca-ab01-53362b4d8ec3",
+      "propertyName": "보령 라바풀빌라",
       "name": "케룸-202 (풀빌라/오션뷰)",
+      "nameEn": "CAELUM-202 (Pool Villa / Ocean View)",
       "description": "원룸형 : 거실(침대1)+주방+화장실1+개별풀+테라스(개별바베큐)",
       "roomInfo": "[인원추가(1박기준/현장결제)]\n- 36개월 이상 1인 30,000원\n- 36개월 미만은 무료이나 인원에는 포함",
       "usageGuide": "[인원추가(1박기준/현장결제)]\n- 36개월 이상 1인 30,000원\n- 36개월 미만은 무료이나 인원에는 포함",
       "group": null,
       "size": 1,
+      "sizePyeong": 0.3,
       "baseOccupancy": 2,
       "maxOccupancy": 5,
       "totalRoomCount": {
         "bedroom": 1,
         "bathroom": 1,
-        "livingRoom": 0
+        "livingRoom": 1,
+        "ondol": 0,
+        "kitchen": 0
+      },
+      "roomOptions": {
+        "petState": "N",
+        "barbecueState": "N",
+        "poolState": "N"
+      },
+      "timeSettings": {
+        "timeSettingType": "property",
+        "checkin": "15:00",
+        "checkout": "11:00",
+        "checkinDeadline": "22:00"
       },
       "bedTypes": [
         "퀸 베드"
@@ -733,6 +772,7 @@
       ],
       "roomStructures": [],
       "status": "active",
+      "bankAccountId": "203f07be-7e0a-4fd7-a2f2-2d1c835750e0",
       "images": [
         {
           "thumbnail": [
@@ -862,22 +902,43 @@
           ]
         }
       ],
-      "displayOrder": 2
+      "displayOrder": 2,
+      "createdAt": "2025-12-03T03:29:35.051Z",
+      "updatedAt": "2026-04-13T08:21:27.238Z",
+      "createdBy": "3a2aa390-fb70-475b-895f-b6e3ea8ef4a2",
+      "updatedBy": "b44df484-2787-43ca-add4-16bba0d8bc83"
     },
     {
       "id": "58cddf12-1523-4802-92ba-950def5ee21c",
+      "propertyId": "3c48e058-e99b-4aca-ab01-53362b4d8ec3",
+      "propertyName": "보령 라바풀빌라",
       "name": "루시오-203 (히노끼욕조/오션뷰)",
+      "nameEn": "ROCIO-203 (Hinoki Tub / Ocean View)",
       "description": "원룸형 : 거실(침대1)+주방+화장실1+테라스(개별바베큐)",
       "roomInfo": "[인원추가(1박기준/현장결제)]\n- 36개월 이상 1인 30,000원\n- 36개월 미만은 무료이나 인원에는 포함",
       "usageGuide": "[인원추가(1박기준/현장결제)]\n- 36개월 이상 1인 30,000원\n- 36개월 미만은 무료이나 인원에는 포함",
       "group": null,
       "size": 1,
+      "sizePyeong": 0.3,
       "baseOccupancy": 2,
       "maxOccupancy": 5,
       "totalRoomCount": {
         "bedroom": 1,
         "bathroom": 1,
-        "livingRoom": 0
+        "livingRoom": 1,
+        "ondol": 0,
+        "kitchen": 0
+      },
+      "roomOptions": {
+        "petState": "N",
+        "barbecueState": "N",
+        "poolState": "N"
+      },
+      "timeSettings": {
+        "timeSettingType": "property",
+        "checkin": "15:00",
+        "checkout": "11:00",
+        "checkinDeadline": "22:00"
       },
       "bedTypes": [
         "퀸 베드"
@@ -899,6 +960,7 @@
       ],
       "roomStructures": [],
       "status": "active",
+      "bankAccountId": "203f07be-7e0a-4fd7-a2f2-2d1c835750e0",
       "images": [
         {
           "thumbnail": [
@@ -1035,22 +1097,43 @@
           ]
         }
       ],
-      "displayOrder": 3
+      "displayOrder": 3,
+      "createdAt": "2025-12-03T03:34:13.309Z",
+      "updatedAt": "2026-04-13T08:21:35.340Z",
+      "createdBy": "3a2aa390-fb70-475b-895f-b6e3ea8ef4a2",
+      "updatedBy": "b44df484-2787-43ca-add4-16bba0d8bc83"
     },
     {
       "id": "5553e94b-29c8-4415-89d5-569a1b5d5bcc",
+      "propertyId": "3c48e058-e99b-4aca-ab01-53362b4d8ec3",
+      "propertyName": "보령 라바풀빌라",
       "name": "루스-204 (풀빌라/오션뷰)",
+      "nameEn": "LUX-204 (Pool Villa / Ocean View)",
       "description": "원룸형 : 거실(침대1)+주방+화장실1+개별풀+테라스(개별바베큐)",
       "roomInfo": "[인원추가(1박기준/현장결제)]\n- 36개월 이상 1인 30,000원\n- 36개월 미만은 무료이나 인원에는 포함",
       "usageGuide": "[인원추가(1박기준/현장결제)]\n- 36개월 이상 1인 30,000원\n- 36개월 미만은 무료이나 인원에는 포함",
       "group": null,
       "size": 1,
+      "sizePyeong": 0.3,
       "baseOccupancy": 2,
       "maxOccupancy": 5,
       "totalRoomCount": {
         "bedroom": 1,
         "bathroom": 1,
-        "livingRoom": 0
+        "livingRoom": 1,
+        "ondol": 0,
+        "kitchen": 0
+      },
+      "roomOptions": {
+        "petState": "N",
+        "barbecueState": "N",
+        "poolState": "N"
+      },
+      "timeSettings": {
+        "timeSettingType": "property",
+        "checkin": "15:00",
+        "checkout": "11:00",
+        "checkinDeadline": "22:00"
       },
       "bedTypes": [
         "퀸 베드"
@@ -1072,6 +1155,7 @@
       ],
       "roomStructures": [],
       "status": "active",
+      "bankAccountId": "203f07be-7e0a-4fd7-a2f2-2d1c835750e0",
       "images": [
         {
           "thumbnail": [
@@ -1187,22 +1271,43 @@
           ]
         }
       ],
-      "displayOrder": 4
+      "displayOrder": 4,
+      "createdAt": "2025-12-03T03:34:13.299Z",
+      "updatedAt": "2026-04-13T08:21:43.545Z",
+      "createdBy": "3a2aa390-fb70-475b-895f-b6e3ea8ef4a2",
+      "updatedBy": "b44df484-2787-43ca-add4-16bba0d8bc83"
     },
     {
       "id": "5674c92d-cb8c-41b2-81c3-1c0c50ae3381",
+      "propertyId": "3c48e058-e99b-4aca-ab01-53362b4d8ec3",
+      "propertyName": "보령 라바풀빌라",
       "name": "인술라-101 (풀빌라/제트스파/오션뷰)",
+      "nameEn": "INSULA-101 (Pool Villa/Spa/OceanView)",
       "description": "원룸형 : 거실(침대1)+주방+화장실1+개별풀+테라스(개별바베큐+제트스파)",
       "roomInfo": "[인원추가(1박기준/현장결제)]\n- 36개월 이상 1인 30,000원\n- 36개월 미만은 무료이나 인원에는 포함",
       "usageGuide": "[인원추가(1박기준/현장결제)]\n- 36개월 이상 1인 30,000원\n- 36개월 미만은 무료이나 인원에는 포함",
       "group": null,
       "size": 1,
+      "sizePyeong": 0.3,
       "baseOccupancy": 2,
       "maxOccupancy": 5,
       "totalRoomCount": {
         "bedroom": 1,
         "bathroom": 1,
-        "livingRoom": 0
+        "livingRoom": 1,
+        "ondol": 0,
+        "kitchen": 0
+      },
+      "roomOptions": {
+        "petState": "N",
+        "barbecueState": "N",
+        "poolState": "N"
+      },
+      "timeSettings": {
+        "timeSettingType": "property",
+        "checkin": "15:00",
+        "checkout": "11:00",
+        "checkinDeadline": "22:00"
       },
       "bedTypes": [
         "퀸 베드"
@@ -1224,6 +1329,7 @@
       ],
       "roomStructures": [],
       "status": "active",
+      "bankAccountId": "e27e48f0-bb19-4e05-9ff8-a65393bfa020",
       "images": [
         {
           "thumbnail": [
@@ -1388,22 +1494,43 @@
           ]
         }
       ],
-      "displayOrder": 5
+      "displayOrder": 5,
+      "createdAt": "2025-12-03T03:34:13.271Z",
+      "updatedAt": "2026-04-13T08:21:58.558Z",
+      "createdBy": "3a2aa390-fb70-475b-895f-b6e3ea8ef4a2",
+      "updatedBy": "b44df484-2787-43ca-add4-16bba0d8bc83"
     },
     {
       "id": "acd2355d-d9aa-4c80-aa43-b17ee1c2272f",
+      "propertyId": "3c48e058-e99b-4aca-ab01-53362b4d8ec3",
+      "propertyName": "보령 라바풀빌라",
       "name": "마레-독채(풀빌라/히노끼욕조/오션뷰)",
+      "nameEn": "MARE-Private(Pool/Hinoki/Ocean View)",
       "description": "분리형 : 거실(킹침대1)+주방+침대룸(킹침대1)+화장실2+개별풀+테라스",
       "roomInfo": "[인원추가(1박기준/현장결제)]\n- 36개월 이상 1인 30,000원\n- 36개월 미만은 무료이나 인원에는 포함",
       "usageGuide": "[인원추가(1박기준/현장결제)]\n- 36개월 이상 1인 30,000원\n- 36개월 미만은 무료이나 인원에는 포함",
       "group": null,
       "size": 1,
+      "sizePyeong": 0.3,
       "baseOccupancy": 4,
       "maxOccupancy": 8,
       "totalRoomCount": {
         "bedroom": 2,
         "bathroom": 2,
-        "livingRoom": 0
+        "livingRoom": 1,
+        "ondol": 0,
+        "kitchen": 0
+      },
+      "roomOptions": {
+        "petState": "N",
+        "barbecueState": "N",
+        "poolState": "N"
+      },
+      "timeSettings": {
+        "timeSettingType": "property",
+        "checkin": "15:00",
+        "checkout": "11:00",
+        "checkinDeadline": "22:00"
       },
       "bedTypes": [
         "퀸 베드"
@@ -1427,6 +1554,7 @@
         "독채"
       ],
       "status": "active",
+      "bankAccountId": "e27e48f0-bb19-4e05-9ff8-a65393bfa020",
       "images": [
         {
           "thumbnail": [
@@ -1619,22 +1747,43 @@
           ]
         }
       ],
-      "displayOrder": 6
+      "displayOrder": 6,
+      "createdAt": "2025-12-03T03:34:13.324Z",
+      "updatedAt": "2026-04-13T08:22:30.731Z",
+      "createdBy": "3a2aa390-fb70-475b-895f-b6e3ea8ef4a2",
+      "updatedBy": "b44df484-2787-43ca-add4-16bba0d8bc83"
     },
     {
       "id": "c7fb2982-c076-42ee-ab18-982a9648e769",
+      "propertyId": "3c48e058-e99b-4aca-ab01-53362b4d8ec3",
+      "propertyName": "보령 라바풀빌라",
       "name": "소노-독채(풀빌라/제트스파/오션뷰)",
+      "nameEn": "SONO-Private(Pool/Jet Spa/OceanView)",
       "description": "복층형 : \n- 1층 : 거실(더블침대2)+침대룸(더블침대1)+주방+화장실1+개별풀+테라스\n- 2층 : 거실+화장실1",
       "roomInfo": "[인원추가(1박기준/현장결제)]\n- 36개월 이상 1인 30,000원\n- 36개월 미만은 무료이나 인원에는 포함",
       "usageGuide": "[인원추가(1박기준/현장결제)]\n- 36개월 이상 1인 30,000원\n- 36개월 미만은 무료이나 인원에는 포함",
       "group": null,
       "size": 1,
+      "sizePyeong": 0.3,
       "baseOccupancy": 4,
       "maxOccupancy": 12,
       "totalRoomCount": {
         "bedroom": 2,
         "bathroom": 2,
-        "livingRoom": 0
+        "livingRoom": 1,
+        "ondol": 0,
+        "kitchen": 0
+      },
+      "roomOptions": {
+        "petState": "N",
+        "barbecueState": "N",
+        "poolState": "N"
+      },
+      "timeSettings": {
+        "timeSettingType": "property",
+        "checkin": "15:00",
+        "checkout": "11:00",
+        "checkinDeadline": "22:00"
       },
       "bedTypes": [
         "퀸 베드"
@@ -1659,6 +1808,7 @@
         "독채"
       ],
       "status": "active",
+      "bankAccountId": "e27e48f0-bb19-4e05-9ff8-a65393bfa020",
       "images": [
         {
           "thumbnail": [
@@ -1858,7 +2008,11 @@
           ]
         }
       ],
-      "displayOrder": 7
+      "displayOrder": 7,
+      "createdAt": "2025-12-03T03:34:13.141Z",
+      "updatedAt": "2026-04-13T08:22:44.221Z",
+      "createdBy": "3a2aa390-fb70-475b-895f-b6e3ea8ef4a2",
+      "updatedBy": "b44df484-2787-43ca-add4-16bba0d8bc83"
     }
   ],
   "homepage": {
@@ -1935,7 +2089,9 @@
                     "isSelected": true
                   }
                 ],
-                "description": "보령 라바풀빌라"
+                "description": "보령 라바풀빌라",
+                "mediaType": "image",
+                "videos": []
               },
               "closing": {
                 "title": "Where ocean views and quiet moments come together.",
@@ -1948,7 +2104,9 @@
                     "isSelected": true
                   }
                 ],
-                "description": " "
+                "description": " ",
+                "mediaType": "image",
+                "videos": []
               },
               "essence": {
                 "title": "",
@@ -1989,7 +2147,9 @@
                     "isSelected": true
                   }
                 ],
-                "description": "Wake up to ocean views and unwind in your own private pool villa."
+                "description": "Wake up to ocean views and unwind in your own private pool villa.",
+                "mediaType": "image",
+                "videos": []
               },
               "gallery": {
                 "title": "About LAVAR",
@@ -2037,7 +2197,9 @@
                     "isSelected": true
                   }
                 ],
-                "description": ""
+                "description": "",
+                "mediaType": "image",
+                "videos": []
               },
               "signature": {
                 "title": "",
@@ -2049,7 +2211,9 @@
                     "description": "LAVAR POOL VILLA",
                     "isSelected": true
                   }
-                ]
+                ],
+                "mediaType": "image",
+                "videos": []
               }
             }
           ]
@@ -2321,6 +2485,12 @@
       },
       "theme": {
         "font": {
+          "koMain": {
+            "cdn": "https://fonts.cdnfonts.com/css/noto-serif-kr",
+            "key": "notoserifKR",
+            "woff2": null,
+            "family": "Noto Serif KR"
+          },
           "koSub": {
             "cdn": "https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.min.css",
             "key": "pretendard",
@@ -2332,12 +2502,6 @@
             "key": "cormorant",
             "woff2": null,
             "family": "Cormorant"
-          },
-          "koMain": {
-            "cdn": "https://fonts.cdnfonts.com/css/noto-serif-kr",
-            "key": "notoserifKR",
-            "woff2": null,
-            "family": "Noto Serif KR"
           }
         },
         "color": {
@@ -2346,6 +2510,7 @@
         }
       },
       "property": {
+        "name": "숙소명",
         "images": []
       },
       "roomtypes": [
