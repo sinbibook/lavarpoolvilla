@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "version": "1.50.0",
-    "generatedAt": "2026-04-13T09:00:25.901Z",
+    "version": "1.51.0",
+    "generatedAt": "2026-04-16T01:16:03.781Z",
     "templateType": "fullpage_visual",
     "propertyId": "3c48e058-e99b-4aca-ab01-53362b4d8ec3",
     "homepageId": "0bb6b3ff-6875-49ad-bd7b-ca5036169290"
@@ -2147,9 +2147,9 @@
                     "isSelected": true
                   }
                 ],
-                "description": "Wake up to ocean views and unwind in your own private pool villa.",
+                "videos": [],
                 "mediaType": "image",
-                "videos": []
+                "description": "Wake up to ocean views and \nunwind in your own \nprivate pool villa."
               },
               "gallery": {
                 "title": "About LAVAR",
@@ -2486,10 +2486,10 @@
       "theme": {
         "font": {
           "koMain": {
-            "cdn": "https://fonts.cdnfonts.com/css/noto-serif-kr",
-            "key": "notoserifKR",
-            "woff2": null,
-            "family": "Noto Serif KR"
+            "cdn": null,
+            "key": "gyeonggimillenniumbackground",
+            "woff2": "https://cdn.jsdelivr.net/gh/projectnoonnu/2410-3@1.0/Batang_Regular.woff",
+            "family": "GyeonggiMillenniumBackground"
           },
           "koSub": {
             "cdn": "https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.min.css",
@@ -2498,10 +2498,10 @@
             "family": "Pretendard"
           },
           "enMain": {
-            "cdn": "https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300..700;1,300..700&display=swap",
-            "key": "cormorant",
+            "cdn": "https://use.typekit.net/vll4umt.css",
+            "key": "amandine",
             "woff2": null,
-            "family": "Cormorant"
+            "family": "amandine"
           }
         },
         "color": {
