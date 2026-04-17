@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "version": "1.51.0",
-    "generatedAt": "2026-04-16T01:16:03.781Z",
+    "version": "1.52.0",
+    "generatedAt": "2026-04-17T00:37:42.416Z",
     "templateType": "fullpage_visual",
     "propertyId": "3c48e058-e99b-4aca-ab01-53362b4d8ec3",
     "homepageId": "0bb6b3ff-6875-49ad-bd7b-ca5036169290"
@@ -2089,9 +2089,9 @@
                     "isSelected": true
                   }
                 ],
-                "description": "보령 라바풀빌라",
+                "videos": [],
                 "mediaType": "image",
-                "videos": []
+                "description": "보령 라바풀빌라"
               },
               "closing": {
                 "title": "Where ocean views and quiet moments come together.",
@@ -2104,9 +2104,9 @@
                     "isSelected": true
                   }
                 ],
-                "description": " ",
+                "videos": [],
                 "mediaType": "image",
-                "videos": []
+                "description": " "
               },
               "essence": {
                 "title": "",
@@ -2197,9 +2197,9 @@
                     "isSelected": true
                   }
                 ],
-                "description": "",
+                "videos": [],
                 "mediaType": "image",
-                "videos": []
+                "description": ""
               },
               "signature": {
                 "title": "",
@@ -2212,8 +2212,8 @@
                     "isSelected": true
                   }
                 ],
-                "mediaType": "image",
-                "videos": []
+                "videos": [],
+                "mediaType": "image"
               }
             }
           ]
@@ -2481,7 +2481,29 @@
         }
       },
       "popup": {
-        "popups": []
+        "popups": [
+          {
+            "id": "c6b8a7eb-9b8a-4db9-8ef9-c438347e5bed",
+            "link": "",
+            "title": "",
+            "images": [
+              {
+                "id": "c02a0cee-3c72-4edb-91a6-142c04c1ff82",
+                "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/0bb6b3ff-6875-49ad-bd7b-ca5036169290/popup/1776386253946-2no7586wnuu.jpg",
+                "sortOrder": 0,
+                "description": "",
+                "isSelected": true,
+                "blockId": "c6b8a7eb-9b8a-4db9-8ef9-c438347e5bed"
+              }
+            ],
+            "slider": false,
+            "enabled": true,
+            "endDate": null,
+            "sortOrder": 0,
+            "startDate": null,
+            "description": ""
+          }
+        ]
       },
       "theme": {
         "font": {
