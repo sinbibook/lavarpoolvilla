@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "version": "1.52.0",
-    "generatedAt": "2026-04-17T00:37:42.416Z",
+    "version": "1.53.0",
+    "generatedAt": "2026-04-23T00:18:44.824Z",
     "templateType": "fullpage_visual",
     "propertyId": "3c48e058-e99b-4aca-ab01-53362b4d8ec3",
     "homepageId": "0bb6b3ff-6875-49ad-bd7b-ca5036169290"
@@ -2149,7 +2149,7 @@
                 ],
                 "videos": [],
                 "mediaType": "image",
-                "description": "Wake up to ocean views and \nunwind in your own \nprivate pool villa."
+                "description": "Oceanfront mornings, \nrelax in \nyour private poolvilla"
               },
               "gallery": {
                 "title": "About LAVAR",
@@ -2532,8 +2532,9 @@
         }
       },
       "property": {
-        "name": "숙소명",
-        "images": []
+        "name": "보령 라바풀빌라",
+        "images": [],
+        "nameEn": "Boryeong Lavar Pool Villa"
       },
       "roomtypes": [
         {
