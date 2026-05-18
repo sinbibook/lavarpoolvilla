@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "version": "1.63.0",
-    "generatedAt": "2026-05-08T02:20:18.940135254Z",
+    "version": "1.64.0",
+    "generatedAt": "2026-05-18T04:29:18.230306461Z",
     "templateType": "fullpage_visual",
     "propertyId": "3c48e058-e99b-4aca-ab01-53362b4d8ec3",
     "homepageId": "0bb6b3ff-6875-49ad-bd7b-ca5036169290"
@@ -25,7 +25,7 @@
     "province": "충청남도",
     "city": "보령시",
     "domain": "lavarpoolvilla.kr",
-    "realtimeBookingId": "https://www.bookingplay.co.kr/partner/item/10025/calendar_list/",
+    "realtimeBookingId": "https://map.naver.com/p/entry/place/952540278",
     "ybsId": "78910",
     "amenities": [
       "WiFi",
@@ -488,7 +488,7 @@
           {
             "id": "b57529da-c0bc-4410-ad22-1eecc4ee2a1d",
             "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/property/3c48e058-e99b-4aca-ab01-53362b4d8ec3/exterior/1773622663103-rqy4lin50sg.jpg",
-            "sortOrder": 1,
+            "sortOrder": 0,
             "description": "",
             "isSelected": true,
             "blockId": null
@@ -584,6 +584,7 @@
       "bedTypes": [
         "퀸 베드"
       ],
+      "bedConfigs": null,
       "amenities": [
         "무료 WiFi",
         "에어컨",
@@ -798,6 +799,7 @@
       "bedTypes": [
         "퀸 베드"
       ],
+      "bedConfigs": null,
       "amenities": [
         "무료 WiFi",
         "에어컨",
@@ -994,6 +996,7 @@
       "bedTypes": [
         "퀸 베드"
       ],
+      "bedConfigs": null,
       "amenities": [
         "무료 WiFi",
         "에어컨",
@@ -1198,6 +1201,7 @@
       "bedTypes": [
         "퀸 베드"
       ],
+      "bedConfigs": null,
       "amenities": [
         "무료 WiFi",
         "에어컨",
@@ -1378,6 +1382,7 @@
       "bedTypes": [
         "퀸 베드"
       ],
+      "bedConfigs": null,
       "amenities": [
         "무료 WiFi",
         "에어컨",
@@ -1614,6 +1619,7 @@
       "bedTypes": [
         "퀸 베드"
       ],
+      "bedConfigs": null,
       "amenities": [
         "무료 WiFi",
         "에어컨",
@@ -1884,6 +1890,7 @@
       "bedTypes": [
         "퀸 베드"
       ],
+      "bedConfigs": null,
       "amenities": [
         "무료 WiFi",
         "에어컨",
