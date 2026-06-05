@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "version": "1.64.0",
-    "generatedAt": "2026-05-18T04:29:18.230306461Z",
-    "templateType": "fullpage_visual",
+    "version": "1.65.0",
+    "generatedAt": "2026-06-05T03:30:34.732108226Z",
+    "templateType": "fullpage_mood",
     "propertyId": "3c48e058-e99b-4aca-ab01-53362b4d8ec3",
     "homepageId": "0bb6b3ff-6875-49ad-bd7b-ca5036169290"
   },
@@ -12,7 +12,7 @@
     "nameEn": "Boryeong Lavar Pool Villa",
     "description": "오션뷰 루프탑 수영장 라바풀빌라",
     "subtitle": "오션뷰 루프탑 수영장 라바풀빌라",
-    "address": "충청남도 보령시 웅천읍 열린바다로 484",
+    "address": "충남 보령시 웅천읍 열린바다로 484",
     "latitude": 36.2301021709846,
     "longitude": 126.53160563518,
     "contactPhone": "010-3309-7977",
@@ -55,8 +55,7 @@
       "businessEmail": "zza93@naver.com",
       "businessType": "individual",
       "businessCategory": "숙박",
-      "eCommerceRegistrationNumber": "제 2017-충남보령-0103호",
-      "ecommerceRegistrationNumber": ""
+      "eCommerceRegistrationNumber": "제 2017-충남보령-0103호"
     },
     "contractInfo": {
       "contractStartDate": "2025-09-10T00:00:00.000Z",
@@ -2154,7 +2153,7 @@
   "homepage": {
     "id": "0bb6b3ff-6875-49ad-bd7b-ca5036169290",
     "domain": "lavarpoolvilla.kr",
-    "templateType": "fullpage_visual",
+    "templateType": "fullpage_mood",
     "images": [
       {
         "logo": [
@@ -2186,7 +2185,7 @@
           "sections": [
             {
               "hero": {
-                "title": "Stay close to the sea, and closer to calm.",
+                "title": "보령 라바풀빌라",
                 "images": [
                   {
                     "id": "0ad11c9c-faeb-4a61-9e49-fed142852196",
@@ -2239,10 +2238,10 @@
                 ],
                 "videos": [ ],
                 "mediaType": "image",
-                "description": "보령 라바풀빌라"
+                "description": "Stay close to the sea, and closer to calm."
               },
               "closing": {
-                "title": "Where ocean views and quiet moments come together.",
+                "title": "Lavar Poolvilla",
                 "images": [
                   {
                     "id": "c1d65465-39d0-49d3-92a1-b9ab6cb4ad87",
@@ -2255,10 +2254,10 @@
                 ],
                 "videos": [ ],
                 "mediaType": "image",
-                "description": " "
+                "description": " 보령 라바풀빌라 "
               },
               "essence": {
-                "title": "",
+                "title": "탁 트인 오션뷰와 인피니티 풀이 어우러진 프리미엄 풀빌라 공간 고급스럽고 감각적인 객실에서 여유로운 휴식을 즐겨보세요. 바다를 바라보며 일상에서 벗어난 특별한 힐링을 경험할 수 있습니다. 🌊✨",
                 "images": [
                   {
                     "id": "ff56d9fc-f528-4418-b8de-a4793acb6f51",
@@ -2349,10 +2348,18 @@
                     "blockId": null
                   },
                   {
-                    "id": "9a6b94cf-2388-403a-a08e-03837328aa43",
-                    "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/0bb6b3ff-6875-49ad-bd7b-ca5036169290/index_gallery/1765503672459-zrx8p8hlpf.jpg",
+                    "id": "2a959ef7-30a8-49d7-8298-934fcb944b37",
+                    "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/0bb6b3ff-6875-49ad-bd7b-ca5036169290/index_gallery/1780304565860-ech8v27dsb.jpg",
                     "sortOrder": 5,
-                    "description": "갯벌체험",
+                    "description": "",
+                    "isSelected": true,
+                    "blockId": null
+                  },
+                  {
+                    "id": "dabc13ad-e609-42ed-9251-b37640366060",
+                    "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/0bb6b3ff-6875-49ad-bd7b-ca5036169290/index_gallery/1780304565864-eo52cukvua.jpg",
+                    "sortOrder": 6,
+                    "description": "",
                     "isSelected": true,
                     "blockId": null
                   }
@@ -2485,7 +2492,7 @@
               },
               "about": [
                 {
-                  "title": "바다와 맞닿은 곳, 보령 라바풀빌라",
+                  "title": " ",
                   "images": [
                     {
                       "id": "ca05bed2-fe2a-4428-a62a-3daec9772cb0",
@@ -2529,54 +2536,7 @@
                     }
                   ],
                   "blockId": "f601884b-4c11-40a3-8fd2-33205dc6672b",
-                  "description": "넓고 빛나는 수영장이 끝없이 아름다운 바다와 맞닿은 곳에서, \n고요한 휴식의 순간이 펼쳐집니다. \n프라이빗하게 즐기는 오션뷰 수영장에서 \n고요한 파도 소리를 들으며, 바다와 자연이 선물하는 \n특별한 순간을 온전히 경험해보시기 바랍니다."
-                },
-                {
-                  "title": "여유를 완성하는 다채로운 부대시설",
-                  "images": [
-                    {
-                      "id": "ae63eddc-9b3b-450a-abc0-e7e1347a841c",
-                      "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/0bb6b3ff-6875-49ad-bd7b-ca5036169290/main_about/1776051099780-b3f1zrddd85.jpg",
-                      "sortOrder": 5,
-                      "description": "",
-                      "isSelected": true,
-                      "blockId": "c33e185b-399e-41a6-8d30-5bc9081b3689"
-                    },
-                    {
-                      "id": "c1622892-4674-4e4f-af94-3fcc6113f67f",
-                      "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/0bb6b3ff-6875-49ad-bd7b-ca5036169290/main_about/1776051099780-77ou97okmka.jpg",
-                      "sortOrder": 6,
-                      "description": "",
-                      "isSelected": true,
-                      "blockId": "c33e185b-399e-41a6-8d30-5bc9081b3689"
-                    },
-                    {
-                      "id": "840515bb-1045-4adf-bee8-3671ca82e8bb",
-                      "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/0bb6b3ff-6875-49ad-bd7b-ca5036169290/main_about/1776051099780-3pgenk8thqy.jpg",
-                      "sortOrder": 7,
-                      "description": "",
-                      "isSelected": true,
-                      "blockId": "c33e185b-399e-41a6-8d30-5bc9081b3689"
-                    },
-                    {
-                      "id": "84aa5e25-7803-4604-94a2-d66486fa2b6d",
-                      "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/0bb6b3ff-6875-49ad-bd7b-ca5036169290/main_about/1776051099780-j0zk28bbap.jpg",
-                      "sortOrder": 8,
-                      "description": "",
-                      "isSelected": true,
-                      "blockId": "c33e185b-399e-41a6-8d30-5bc9081b3689"
-                    },
-                    {
-                      "id": "a24ccbb2-fe98-4b1b-995d-a020649a517b",
-                      "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/0bb6b3ff-6875-49ad-bd7b-ca5036169290/main_about/1776051099780-pe8ydtezx48.jpg",
-                      "sortOrder": 9,
-                      "description": "",
-                      "isSelected": true,
-                      "blockId": "c33e185b-399e-41a6-8d30-5bc9081b3689"
-                    }
-                  ],
-                  "blockId": "c33e185b-399e-41a6-8d30-5bc9081b3689",
-                  "description": "루프탑 위로 번지는 물빛과 히노끼 스파의 온기\n갯벌의 추억과 개별 바비큐의 여유가 머무는 시간\n하루를 채우는 모든 순간이 특별해지는 공간"
+                  "description": "바다와 맞닿은 곳, 보령 라바풀빌라\n넓고 빛나는 수영장이 끝없이 아름다운 바다와 맞닿은 곳에서, \n고요한 휴식의 순간이 펼쳐집니다. \n프라이빗하게 즐기는 오션뷰 수영장에서 \n고요한 파도 소리를 들으며, 바다와 자연이 선물하는 \n특별한 순간을 온전히 경험해보시기 바랍니다."
                 }
               ]
             }
@@ -2647,12 +2607,42 @@
                     "description": "",
                     "isSelected": true,
                     "blockId": null
+                  },
+                  {
+                    "id": "775937e0-4001-432b-9cc1-b61c148fedd3",
+                    "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/0bb6b3ff-6875-49ad-bd7b-ca5036169290/reservation_about/1780304443935-6mprnrtsw0.jpg",
+                    "sortOrder": 1,
+                    "description": "",
+                    "isSelected": true,
+                    "blockId": null
+                  },
+                  {
+                    "id": "8f311113-b861-49bf-b7ab-9a31787c1d25",
+                    "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/0bb6b3ff-6875-49ad-bd7b-ca5036169290/reservation_about/1780304443937-d0ioy44dpd.jpg",
+                    "sortOrder": 2,
+                    "description": "",
+                    "isSelected": true,
+                    "blockId": null
+                  },
+                  {
+                    "id": "71e34e68-10fe-4f88-bef1-68fd7ce67806",
+                    "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/0bb6b3ff-6875-49ad-bd7b-ca5036169290/reservation_about/1780304443913-d4vew5vdul.jpg",
+                    "sortOrder": 3,
+                    "description": "",
+                    "isSelected": true,
+                    "blockId": null
                   }
                 ],
                 "description": " "
               }
             }
           ]
+        },
+        "nearbyAttractions": {
+          "sections": [ ]
+        },
+        "layoutMap": {
+          "sections": [ ]
         }
       },
       "popup": {
@@ -2703,13 +2693,13 @@
         },
         "color": {
           "primary": "#F5F5F5",
-          "secondary": "#1D3A5F"
+          "secondary": "#357AD4"
         }
       },
       "property": {
         "name": "보령 라바풀빌라",
         "images": [ ],
-        "nameEn": "Boryeong Lavar Pool Villa"
+        "nameEn": "Lavar Poolvilla"
       },
       "roomtypes": [
         {
