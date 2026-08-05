@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "version": "1.75.0",
-    "generatedAt": "2026-07-20T02:09:38.667406440Z",
+    "version": "1.76.0",
+    "generatedAt": "2026-08-05T00:34:01.140110949Z",
     "templateType": "fullpage_mood",
     "propertyId": "3c48e058-e99b-4aca-ab01-53362b4d8ec3",
     "homepageId": "0bb6b3ff-6875-49ad-bd7b-ca5036169290"
@@ -2318,8 +2318,8 @@
       "title": "보령 라바풀빌라",
       "description": "바다와 맞닿은 곳, 보령 라바풀빌라 입니다. ",
       "keywords": "보령펜션, 보령풀빌라, 충청도펜션, 보령오션뷰펜션, 보령스파펜션, 보령수영장펜션, 보령독채펜션, 보령단체펜션, 보령갯벌체험, 개별바베큐",
-      "naverSiteVerification": null,
-      "googleSiteVerification": null
+      "naverSiteVerification": "",
+      "googleSiteVerification": ""
     },
     "socialLinks": {
       "facebook": null,
