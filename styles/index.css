@@ -34,6 +34,24 @@ img {
 }
 
 /* ===========================
+   0. VIDEO (히어로 위 영상 영역 — 영상 없으면 JS가 display:none)
+   =========================== */
+.video-section {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  background-color: #000;
+  line-height: 0;
+}
+
+.video-section-video {
+  display: block;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+/* ===========================
    1. HERO
    =========================== */
 .hero {
@@ -345,7 +363,7 @@ img {
   display: flex;
   gap: 22px;
   width: max-content;
-  animation: room-scroll 25s linear infinite;     /* 40s → 25s (조금 더 빠르게) */
+  animation: room-scroll var(--room-scroll-duration, 45s) linear infinite;
 }
 
 .room-slider:hover .room-slider-track {
@@ -1075,7 +1093,7 @@ a.room-card:hover {
   }
 
   .room-slider-track {
-    animation-duration: 30s;
+    --room-scroll-duration: 45s;
   }
 
   .special-content {
@@ -1332,7 +1350,7 @@ a.room-card:hover {
 
   .room-slider-track {
     gap: 16px;                 /* 22 → 16 (좁은 화면에서 카드 사이 여백 축소) */
-    animation-duration: 24s;
+    --room-scroll-duration: 40s;
   }
 
   /* gap이 22 → 16으로 줄었으므로 seamless loop 보정값도 11 → 8로 조정 */
