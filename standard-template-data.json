@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "version": "1.89.0",
-    "generatedAt": "2026-10-02T01:24:59.189998822Z",
+    "version": "1.90.0",
+    "generatedAt": "2026-10-02T01:27:14.017902678Z",
     "templateType": "fullpage_mood",
     "propertyId": "3c48e058-e99b-4aca-ab01-53362b4d8ec3",
     "homepageId": "0bb6b3ff-6875-49ad-bd7b-ca5036169290"
@@ -29,6 +29,9 @@
     "domain": "lavarpoolvilla.kr",
     "realtimeBookingId": "https://map.naver.com/p/entry/place/952540278",
     "ybsId": "78910",
+    "tripPropertyId": "10025",
+    "partnerType": "distributor_b",
+    "tripProviderName": "(주)신비서",
     "amenities": [
       "흡연구역(지정장소)",
       "주차장"
@@ -563,10 +566,7 @@
         "surrounding": [ ],
         "commonArea": [ ]
       }
-    ],
-    "tripPropertyId": "10025",
-    "partnerType": "distributor_b",
-    "tripProviderName": "(주)신비서"
+    ]
   },
   "rooms": [
     {
