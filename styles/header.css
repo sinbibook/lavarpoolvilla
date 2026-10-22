@@ -966,6 +966,9 @@ body.navigation-open {
 @media screen and (max-width: 960px) {
   .navigation .navigation-off,
   .navigation .navigation-off:hover {
+    /* 기본 display 가 block 이라 flex 를 켜야 navigation-off-inner(flex: 1)가
+       남은 높이를 채운다. 안 켜면 메뉴 내용 높이에서 끝나 아래가 흰 공백으로 남는다 */
+    display: flex !important;
     flex-direction: column !important;
     height: 100% !important;
     min-height: 0 !important;

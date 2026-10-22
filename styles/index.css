@@ -70,7 +70,7 @@ img {
 }
 
 .hero-title-text {
-  margin: 70px 0 -30px 0;       /* top 100→70 (-30px 위로) / bottom -30 (gallery와 간격 -30) */
+  margin: 100px 0 -30px 0;      /* top 100 (슬라이더와 간격) / bottom -30 (gallery와 간격 -30) */
   font-size: 180px;
   font-family: var(--font-italiana);
   font-weight: 400;
@@ -84,7 +84,7 @@ img {
    2. GALLERY (Infinite Rolling — 풀와이드)
    =========================== */
 .gallery-section {
-  padding: 8px 0;
+  padding: 40px 0;
   overflow: hidden;
 }
 
@@ -125,7 +125,6 @@ img {
   min-height: 960px;
   padding: 158px 200px 42px;
   gap: 80px;
-  margin-top: -30px;        /* 이 섹션부터 하단 전체 30px 위로 이동 */
 }
 
 .slider-bg-wrap {
@@ -1234,6 +1233,7 @@ a.room-card:hover {
   }
 
   .hero-title-text {
+    margin: 40px 0 -30px 0;
     font-size: 60px;
     line-height: 1.1;
   }
@@ -1245,6 +1245,11 @@ a.room-card:hover {
 
   .gallery-track {
     animation-duration: 22s;
+  }
+
+  /* 타이틀(margin-bottom -30)과 조각컷이 겹치지 않게 위쪽만 8 → 40 */
+  .gallery-section {
+    padding-top: 40px;
   }
 
   .header {
